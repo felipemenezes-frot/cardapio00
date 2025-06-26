@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Itoca</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topo">
+    <div class="logo">
+      <img src="bf300ccb-3c98-437d-ab81-a1356b4de61a.png" alt="" />
+      <h1>Itoca</h1>
+      <span>Av Ulisses Guimarães</span>
+    </div>
+    <div class="date-span" id="date-span">
+      <span>Seg à Sab - 19:00 às 22:00</span>
+    </div>
+  </header>
+
+  <header class="car">
+    <nav>
+      <a href="#Sanduiches">Sanduíches</a>
+      <a href="#Pao-Arabe">Pão Árabe</a>
+      <a href="#Pastel">Pastel</a>
+      <a href="#Pizzas">Pizzas</a>
+      <a href="#Bebidas">Bebidas</a>
+      <a href="#Sobremesas">Sobremesas</a>
+    </nav>
+  </header>
+
+  <!-- Sanduíches -->
+  <h2 id="Sanduiches">Sanduíches</h2>
+  <div id="menu">
+    <div class="p1">
+      <h4>Americano</h4>
+      <p>Presunto, queijo mussarela, ovo, alface, tomate e molho especial da casa, um clássico de sabor equilibrado.</p>
+      <div class="h0">
+        <p><span class="preco">R$ 10,00</span></p>
+        <button class="add-to-cart-btn" data-name="Americano" data-price="10">
+          <i class="fa fa-cart-plus"></i>
+        </button>
+      </div>
+    </div>
+    <div class="p1">
+      <h4>Bauru</h4>
+      <p>Hambúrguer suculento, queijo mussarela, presunto, alface, tomate e um delicioso creme de orégano.</p>
+      <div class="h0">
+        <p><span class="preco">R$ 10,00</span></p>
+        <button class="add-to-cart-btn" data-name="Bauru" data-price="10">
+          <i class="fa fa-cart-plus"></i>
+        </button>
+      </div>
+    </div>
+    <div class="p2">
+      <h4>X-Banana</h4>
+      <p>Banana grelhada na chapa, queijo derretido e toque de canela caramelizada. Um sanduíche doce e irresistível!</p>
+      <div class="h0">
+        <p><span class="preco">R$ 10,00</span></p>
+        <button class="add-to-cart-btn" data-name="X-Banana" data-price="10">
+          <i class="fa fa-cart-plus"></i>
+        </button>
+      </div>
+    </div>
+    <div class="p2">
+      <h4>X-Calabresa</h4>
+      <p>Hambúrguer suculento, calabresa, alface, tomate e molho especial da casa, trazendo um sabor marcante.</p>
+      <div class="h0">
+        <p><span class="preco">R$ 10,00</span></p>
+        <button class="add-to-cart-btn" data-name="X-Calabresa" data-price="10">
+          <i class="fa fa-cart-plus"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pão Árabe -->
+  <section class="pao-arabe" id="Pao-Arabe">
+    <h2>Pão Árabe</h2>
+    <div class="p3">
+      <h4>Guloso</h4>
+      <p>Hambúrguer suculento, queijo mussarela, presunto, salada fresca e molho especial da casa.</p>
+      <div class="h0">
+        <p><span class="preco">R$ 12,00</span></p>
+        <button class="add-to-cart-btn" data-name="Guloso" data-price="12">
+          <i class="fa fa-cart-plus"></i>
+        </button>
+      </div>
+    </div>
+    <div class="p3">
+      <h4>Guloso 100 Noção</h4>
+      <p>Frango desfiado, cheddar cremoso, queijo mussarela, bacon, milho verde, salada e molho especial da casa.</p>
+      <div class="h0">
+        <p><span class="preco">R$ 16,00</span></p>
+        <button class="add-to-cart-btn" data-name="Guloso 100 Noção" data-price="16">
+          <i class="fa fa-cart-plus"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pastel -->
+  <section id="Pastel">
+    <h2>Pastel</h2>
+    <div class="p4">
+      <h4>Pastel de Queijo</h4>
+      <p>Massa crocante recheada com queijo mussarela derretido.</p>
+      <div class="h0">
+        <p><span class="preco">R$ 6,00</span></p>
+        <button class="add-to-cart-btn" data-name="Pastel de Queijo" data-price="6">
+          <i class="fa fa-cart-plus"></i>
+        </button>
+      </div>
+    </div>
+    <div class="p4">
+      <h4>Pastel de Carne</h4>
+      <p>Recheado com carne moída temperada e queijo.</p>
+      <div class="h0">
+        <p><span class="preco">R$ 7,00</span></p>
+        <button class="add-to-cart-btn" data-name="Pastel de Carne" data-price="7">
+          <i class="fa fa-cart-plus"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pizzas -->
+  <section id="Pizzas">
+    <h2>Pizzas</h2>
+    <div class="p5">
+      <h4>Pizza Calabresa</h4>
+      <p>Molho de tomate, queijo mussarela e calabresa fatiada.</p>
+      <div class="h0">
+        <p><span class="preco">R$ 25,00</span></p>
+        <button class="add-to-cart-btn" data-name="Pizza Calabresa" data-price="25">
+          <i class="fa fa-cart-plus"></i>
+        </button>
+      </div>
+    </div>
+    <div class="p5">
+      <h4>Pizza Portuguesa</h4>
+      <p>Molho de tomate, queijo, presunto, ovos e azeitonas.</p>
+      <div class="h0">
+        <p><span class="preco">R$ 30,00</span></p>
+        <button class="add-to-cart-btn" data-name="Pizza Portuguesa" data-price="30">
+          <i class="fa fa-cart-plus"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bebidas -->
+  <section id="Bebidas">
+    <h2>Bebidas</h2>
+    <div class="p6">
+      <h4>Refrigerante Lata</h4>
+      <p>350ml, sabor à escolha.</p>
+      <div class="h0">
+        <p><span class="preco">R$ 5,00</span></p>
+        <button class="add-to-cart-btn" data-name="Refrigerante Lata" data-price="5">
+          <i class="fa fa-cart-plus"></i>
+        </button>
+      </div>
+    </div>
+    <div class="p6">
+      <h4>Suco Natural</h4>
+      <p>Suco natural de frutas da estação.</p>
+      <div class="h0">
+        <p><span class="preco">R$ 7,00</span></p>
+        <button class="add-to-cart-btn" data-name="Suco Natural" data-price="7">
+          <i class="fa fa-cart-plus"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobremesas -->
+  <section id="Sobremesas">
+    <h2>Sobremesas</h2>
+    <div class="p7">
+      <h4>Brigadeiro</h4>
+      <p>Docinho tradicional de chocolate.</p>
+      <div class="h0">
+        <p><span class="preco">R$ 4,00</span></p>
+        <button class="add-to-cart-btn" data-name="Brigadeiro" data-price="4">
+          <i class="fa fa-cart-plus"></i>
+        </button>
+      </div>
+    </div>
+    <div class="p7">
+      <h4>Petit Gateau</h4>
+      <p>Bolo de chocolate com recheio cremoso.</p>
+      <div class="h0">
+        <p><span class="preco">R$ 12,00</span></p>
+        <button class="add-to-cart-btn" data-name="Petit Gateau" data-price="12">
+          <i class="fa fa-cart-plus"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal do Carrinho -->
+  <div class="modal-overlay" id="cart-modal" style="display:none;">
+    <div class="modal-cart">
+      <h2 class="modal-title">Meu carrinho</h2>
+      <div id="cart-items" class="cart-items"></div>
+      <p class="cart-total-text">Total: R$ <span id="cart-total">0.00</span></p>
+      <p class="cart-label">Endereço de entrega:</p>
+      <input type="text" placeholder="Digite seu endereço completo..." id="address" class="cart-input" />
+      <p class="cart-warn hidden" id="address-warn">Digite seu endereço completo!</p>
+       <p class="cart-label">Forma de pagamento:</p>
+      <input type="text" placeholder="Ex: Dinheiro, Pix, Cartão..." id="payment-method" class="cart-input" />
+      <p class="cart-warn hidden" id="payment-warn">Digite a forma de pagamento!</p>
+      <div class="cart-footer">
+        <button id="close-modal-btn">Fechar</button>
+        <button id="checkout-btn" class="checkout-btn">Finalizar pedido</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="carrinho-footer">
+    <button class="btn-carrinho" id="cart-btn">
+      (<span id="cart-count">0</span>) Veja meu carrinho <span class="icon">🛒</span>
+    </button>
+  </footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const cartBtn = document.getElementById("cart-btn");
+  const cartModal = document.getElementById("cart-modal");
+  const cartItemsContainer = document.getElementById("cart-items");
+  const cartTotal = document.getElementById("cart-total");
+  const closeModalBtn = document.getElementById("close-modal-btn");
+  const cartCounter = document.getElementById("cart-count");
+  const checkoutBtn = document.getElementById("checkout-btn");
+  const addressInput = document.getElementById("address");
+  const addressWarn = document.getElementById("address-warn");
+  const paymentInput = document.getElementById("payment-method");
+  const paymentWarn = document.getElementById("payment-warn");
+  const spanItem = document.getElementById("date-span");
+
+  let cart = [];
+
+  function updateCartModal() {
+    cartItemsContainer.innerHTML = "";
+    let total = 0;
+
+    cart.forEach((item, index) => {
+      const cartItemElement = document.createElement("div");
+      cartItemElement.classList.add("cart-item");
+
+      cartItemElement.innerHTML = `
+        <div>
+          <p><strong>${item.name}</strong></p>
+          <p>Quantidade: ${item.quantity}</p>
+          <p>Preço: R$ ${(item.price * item.quantity).toFixed(2)}</p>
+        </div>
+        <button class="remove-btn" data-index="${index}">❌</button>
+      `;
+
+      cartItemsContainer.appendChild(cartItemElement);
+      total += item.price * item.quantity;
+    });
+
+    cartTotal.textContent = total.toFixed(2);
+    cartCounter.textContent = cart.reduce((acc, item) => acc + item.quantity, 0);
+
+    document.querySelectorAll(".remove-btn").forEach((button) => {
+      button.addEventListener("click", function () {
+        const index = this.getAttribute("data-index");
+        removeItemFromCart(index);
+      });
+    });
+  }
+
+  function addToCart(name, price) {
+    const existingItem = cart.find((item) => item.name === name);
+    if (existingItem) {
+      existingItem.quantity += 1;
+    } else {
+      cart.push({ name, price, quantity: 1 });
+    }
+    updateCartModal();
+  }
+
+  function removeItemFromCart(index) {
+    cart.splice(index, 1);
+    updateCartModal();
+  }
+
+  // Abrir modal
+  cartBtn.addEventListener("click", () => {
+    cartModal.style.display = "flex";
+    cartBtn.style.display = "none";
+  });
+
+  // Fechar modal (clicando fora)
+  cartModal.addEventListener("click", (event) => {
+    if (event.target === cartModal) {
+      cartModal.style.display = "none";
+      cartBtn.style.display = "block";
+    }
+  });
+
+  // Fechar modal (botão fechar)
+  closeModalBtn.addEventListener("click", () => {
+    cartModal.style.display = "none";
+    cartBtn.style.display = "block";
+  });
+
+  // Adicionar ao carrinho
+  document.addEventListener("click", (event) => {
+    const button = event.target.closest(".add-to-cart-btn");
+    if (!button) return;
+    const name = button.getAttribute("data-name");
+    const price = parseFloat(button.getAttribute("data-price"));
+    addToCart(name, price);
+  });
+
+  // Validar campos ao digitar
+  addressInput.addEventListener("input", () => addressWarn.classList.add("hidden"));
+  paymentInput.addEventListener("input", () => paymentWarn.classList.add("hidden"));
+
+  // Finalizar pedido
+  checkoutBtn.addEventListener("click", () => {
+    if (cart.length === 0) return;
+
+    const address = addressInput.value.trim();
+    const payment = paymentInput.value.trim();
+
+    if (!address) addressWarn.classList.remove("hidden");
+    if (!payment) paymentWarn.classList.remove("hidden");
+    if (!address || !payment) return;
+
+    const cartItemsText = cart.map(item =>
+      `${item.name} (Qtd: ${item.quantity}) - R$${(item.price * item.quantity).toFixed(2)}`
+    ).join('\\n');
+
+    const message = encodeURIComponent(
+      `Olá! Gostaria de fazer o seguinte pedido:\\n\\n${cartItemsText}\\n\\nEndereço: ${address}\\nForma de pagamento: ${payment}`
+    );
+
+    const phone = "5585987337442";
+    window.open(`https://wa.me/${phone}?text=${message}`, "_blank");
+
+    // Resetar carrinho
+    cart = [];
+    updateCartModal();
+    addressInput.value = "";
+    paymentInput.value = "";
+    cartModal.style.display = "none";
+    cartBtn.style.display = "block";
+  });
+
+  // Verifica horário de funcionamento
+  function checkRestaurantOpen() {
+    const now = new Date();
+    const hour = now.getHours();
+    return hour >= 19 && hour < 22;
+  }
+
+  const isOpen = checkRestaurantOpen();
+  spanItem.style.backgroundColor = isOpen ? "green" : "red";
+  spanItem.style.color = "white";
+  spanItem.title = isOpen ? "Estamos abertos!" : "Estamos fechados!";
+
+  // Scroll do carrinho
+  cartItemsContainer.style.maxHeight = "300px";
+  cartItemsContainer.style.overflowY = "auto";
+});
+</script>
+
+</body>
+</html>
